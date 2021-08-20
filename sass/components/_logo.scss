@@ -1,0 +1,31 @@
+.logo {
+    margin-right: 93px;
+
+    font-family: var(--font-raleway);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+.logo_main {
+    color: var(--secondary-text-color);
+
+    &:hover,
+    &:focus{
+        color: initial;
+    }
+}
+
+.logo_accent {
+    color: var(--accent-color);
+}
+.logo_reverse {
+    display: block;
+    margin: 0 0 20px 0;
+    color: var(--white-color);
+
+    &:hover,
+    &:focus{
+        color: var(--white-color);
+    }
+}

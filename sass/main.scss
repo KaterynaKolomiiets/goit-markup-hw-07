@@ -1,0 +1,36 @@
+@import "./utils/variables";
+@import "./utils/styles-drop";
+@import "./utils/visually-hidden";
+
+// HEADER
+
+@import "./layouts/header";
+@import "./components/container";
+@import "./components/section";
+@import "./components/navigation";
+@import "./components/logo";
+@import "./components/contacts-header";
+
+// HERO
+
+@import "./layouts/hero";
+@import "./components/button";
+
+@import "./layouts/section-advantages";
+@import "./layouts/section-tasks";
+@import "./layouts/section-team";
+@import "./components/social-media-list";
+@import "./layouts/section-clients";
+// backdrip and modal
+@import "./components/backdrop";
+@import "./components/modal-window";
+@import "./components/contact-form";
+
+// footer
+
+@import "./layouts/footer";
+// insert footer components here
+
+// PORTFOLIO
+@import "./components/filter-btns";
+@import "./layouts/portfolio";
